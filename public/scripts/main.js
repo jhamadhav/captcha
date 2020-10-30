@@ -6,7 +6,7 @@ const addClickToBtn = () => {
     let btn = document.getElementById("resetBtn");
 
     btn.onclick = async () => {
-        let url = "http://localhost:8000/api/captcha";
+        let url = "/api/captcha";
         let data = {
             msg: "send captcha"
         };
